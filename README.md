@@ -1,4 +1,4 @@
 # PORTFOLIO
-Frontend Portfolio
-
-Portfolio Website using:HTML,CSS,Javascript
+<h2>Frontend Portfolio</h2>
+<br>
+<p>Portfolio Website using:HTML,CSS,Javascript</p>
