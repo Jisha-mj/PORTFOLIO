@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jisha Maria Joseph</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d94d235c5a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="photos/text2.png" class="logo">
+                <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                         <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Engineering student</p>
+                <h1>Hi, I'm <span>Jisha Maria Joseph</span><br>From Kerala,India</h1>
+            </div>
+        </div>
+    </div>
+    <!------------about----------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photos/2pic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Jisha Maria Joseph, a final year Computer Engineering student based in Kerala,India. 
+                        From building strong foundations in data structures and algorithms to solving complex problems, my coursework and projects have equipped me with valuable skills in data structures, algorithms, and a proficiency in languages such as Python, Java, and C.<br> <br>My fascination with Designing and machine learning motivates me to explore and innovate continuously.
+                        Beyond academics, I actively participate in cultural events and conduct events for the college fest, where I apply my technical knowledge in practical scenarios. I thrive in collaborative environments where diverse perspectives converge to create meaningful solutions.<br><br>
+                        As I approach graduation, I am eager to transition from academia to industry, where I aim to contribute my skills in indusries where i can  bring changes to  the society. <br>
+                        Thank you for visiting my portfolio. Feel free to explore my projects and achievements, and don't hesitate to reach out for collaboration opportunities or to connect!  
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Ui/Ux</span><br>Desihning Web Interfaces</li>
+                            <li><span>Web Development</span><br>full stack development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Btech in Computer Engineering from Viswajyothi College engineering and Technology</li>
+                            <li><span>2020</span><br>Higher Secondary from United Indian School,Kuwait</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------Projects----------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-car-side"></i>
+                    <h2>Programming Languages</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C</li>
+                    </ul>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib" ></i>
+                    <h2>Web Development</h2>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>FrameWorks
+                            <ul>
+                                <li>Python:Flask,Django</li>
+                                <li>JavaScript,Vuejs</li>
+                            </ul>
+                        </li>
+                        <li>UI/UX: Figma</li>
+                    </ul>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Database</h2>
+                    <ul>
+                        <li>SQL(MySQL,SQLlite)</li>
+                    </ul>
+                    <a href="#">Learn more</a>
+                    <br><br>
+                    <h2>Operating System</h2>
+                    <ul>
+                        <li>Windows</li>
+                        <li>Linux: Ubantu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------Portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="photos/work1.jpg">
+                <div class="layer">
+                    <h3>Mithra Carpooling website</h3>
+                    <p>This is full stack development project on Carpooling and product delivery website</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="photos/work3.jpg" style="width: 85%;">
+                <div class="layer">
+                    <h3>Blog Application website</h3>
+                    <p>This is full stack development project of Blog Website</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------Contact-form---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jishamj13@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9544381741</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="photos/---.pdf" download class="btn btn2">download Cv/Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" requird>
+                    <textarea type="message" rows="6"  col="8" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+          
+            
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright @Jisha Maria Joseph 2024 <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+ 
+
+
+
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){             /*-when opentab() function is called*/
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");     /* remove the activetab-skills */
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");     /* also the active-contents*/
+            }
+            event.currentTarget.classList.add("active-link");   /* and make the current tab which was clicked as the new active tab*/
+            document.getElementById(tabname).classList.add("active-tab")  /* this will diaplay the active content */
+
+        }
+</script>
+<script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+</script>    
+</body>
+</html>
